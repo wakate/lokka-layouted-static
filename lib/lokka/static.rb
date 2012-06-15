@@ -16,7 +16,7 @@ module Lokka
             layout = "#{dir}/layout"
             options = {}
             options[:layout] = layout.to_sym
-            send :render, ext_name, "plugin/lokka-static/views/#{base_name}".to_sym, options
+            send :render, ext_name, "plugin/lokka-layouted-static/views/#{base_name}".to_sym, options
             # options[:layout] = false
             # send :render, ext_name, "plugin/lokka-static/views/#{base_name}".to_sym, options
           end
@@ -25,7 +25,7 @@ module Lokka
 
       app.helpers do
         def assets_path(file_path)
-          "/plugin/lokka-static/views/#{request.path[1..-1]}/#{file_path}"
+          "/plugin/lokka-layouted-static/views/#{request.path[1..-1]}/#{file_path}"
         end
       end
     end
