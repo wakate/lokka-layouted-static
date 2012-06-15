@@ -33,3 +33,6 @@ assets_path is always looking "/plugin/lokka-static/views/#{file name}/"
 
 ## Copyright
 Copyright (c) 2012 Daichi Hirata, released under the MIT license.
+
+### Modified to layouted static page.
+Copyright (c) 2012 sowawa, released under the MIT license.
