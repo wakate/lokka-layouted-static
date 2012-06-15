@@ -1,5 +1,5 @@
-# Lokka Static
-You will be able to create a static page.
+# Lokka Static ( layouted )
+You will be able to create a layouted static page.
 
 ## Installation
     $ cd LOKKA_ROOT/public/plugin
